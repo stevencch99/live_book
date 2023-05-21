@@ -4,7 +4,11 @@
 Mix.install([{:req, "~> 0.3.0"}, {:kino, "~> 0.8.1"}])
 ```
 
-## The main module
+## The Main Module
+
+> Ref. https://fly.io/phoenix-files/streaming-openai-responses/
+
+* Prerequisite: Setup your OpenAI API key via the Livebook secrets from the sidebar, and name it `OPENAI_KEY`.
 
 ```elixir
 defmodule OpenAI do
